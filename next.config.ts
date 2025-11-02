@@ -1,20 +1,27 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
+// Use repo name as basePath only when deployed to GitHub Pages
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/portfolio" : "";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  output: "export", // ensures static export for GitHub Pages
   basePath,
-  assetPrefix: basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
   images: {
-    unoptimized: true,
+    unoptimized: true, // required for static export
   },
-  trailingSlash: true,
+  trailingSlash: true, // makes all routes end with '/'
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: true, // avoids ESLint breaking your build
   },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
+  },
+  // Optional: Disable automatic image optimization completely
+  // since GitHub Pages is static and can't handle dynamic routes
+  experimental: {
+    optimizeCss: true, // speeds up build/export
   },
 };
 
