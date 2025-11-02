@@ -1,0 +1,99 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "boharasaugat23@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:boharasaugat23@gmail.com"
+      }
+    ],
+    "socialItems": [
+    {
+      "platform": "linkedin",
+      "icon": "/images/icon/linkedin-icon.svg",
+      "link": "https://www.linkedin.com/in/saugat-bohara12/"
+    },
+    {
+      "platform": "facebook",
+      "icon": "https://www.facebook.com/favicon.ico",
+      "link": "https://www.facebook.com/saugatkshetri20/"
+    },
+    {
+      "platform": "github",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg",
+      "link": "https://github.com/saugatksh"
+    }
+  ]
+  },
+  
+  "educationData": {
+    "skills": [
+    {
+      "name": "HTML",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+      "rating": 5
+    },
+    {
+      "name": "CSS",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      "rating": 5
+    },
+    {
+      "name": "JavaScript",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+      "rating": 4
+    },
+    {
+      "name": "Python",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      "rating": 5
+    },
+    {
+      "name": "Odoo",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/5/50/Odoo_logo.svg",
+      "rating": 4
+    },
+    {
+      "name": "React",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "rating": 3
+    },
+    {
+      "name": "TypeScript",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      "rating": 3
+    },
+    {
+      "name": "Django",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg",
+      "rating": 4
+    }
+  ]
+
+
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Facebook",
+        "href": "https://www.facebook.com/saugatkshetri20/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/saugat-bohara12/"
+      },
+      {
+        "title": "Github",
+        "href": "https://github.com/saugatksh"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "boharasaugat23@gmail.com",
+        "link": "mailto:boharasaugat23@gmail.com"
+      }
+    ]
+  }
+}

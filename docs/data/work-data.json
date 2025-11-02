@@ -1,0 +1,33 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/FENAMP.png",
+      "title": "FENAMP (Federation of National Production and Market Protection)",
+      "client": "FENAMP",
+      "link": "https://fenamp.org"
+    },
+    {
+      "image": "/images/work/pragati-trade-suppliers.png",
+      "title": "Pragati Trade Suppliers",
+      "client": "Pragati Trade Suppliers"
+    },
+    {
+      "image": "/images/work/sagarmatha-nepal.png",
+      "title": "Sagarmatha Nepal",
+      "client": "Sagarmatha Nepal"
+    },
+    {
+      "image": "/images/work/schoolerp.jpeg",
+      "title": "School ERP",
+      "client": "Shangrila Informatics"
+    },
+    {
+      "image": "/images/work/parking.jpg",
+      "title": "Parking Management System"
+    },
+    {
+      "image": "/images/work/bts.png",
+      "title": "Financial Tracking system"
+    }
+  ]
+}
